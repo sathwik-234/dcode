@@ -1,0 +1,42 @@
+#search-div{
+    width: 900px;
+    height: 300px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(16, 111, 23, 0.24);
+    display: none;
+    position: fixed;
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+.blur {
+    filter: blur(5px);
+  }
+  
+.button_pl{
+    width: 200px;
+    height: 50px;
+    font-family: 'Rubik', sans-serif;
+    background-color: #073042;
+    color: white;
+    font-weight:bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to left, #073042 50%, #6dd58c 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    margin: 10px;
+}
+.button_pl:hover{
+    cursor: pointer;
+    background-position: left;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 1px 50px 0 rgba(0,0,0,0.19);
+}
+@keyframes text{
+    from{position: 600px;}
+    to{position: 200px;}
+}
